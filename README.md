@@ -1,52 +1,59 @@
-# Quantum-Resistant Hardware Firewall on FPGA
+# Quantum Resistant Hardware Firewall on FPGA
 
-## Table of Contents
-- [Introduction](#introduction)
-- [Architecture Diagrams](#architecture-diagrams)
-- [Flowcharts](#flowcharts)
-- [Performance Metrics](#performance-metrics)
-- [Feature Comparisons](#feature-comparisons)
-- [Setup Instructions](#setup-instructions)
-- [Usage Guide](#usage-guide)
-- [Contributors](#contributors)
-- [License](#license)
-- [Visualizations](#visualizations)
+## Overview
+This project presents a framework for developing a quantum-resistant hardware firewall on an FPGA. It provides protection against quantum computing-based attacks by implementing advanced cryptographic algorithms and hardware-level security features.
 
-## Introduction
-This project focuses on developing a Quantum-Resistant Hardware Firewall utilizing FPGA technology. It aims to protect networks from potential threats posed by quantum computing capabilities.
+## Architecture
+![Architecture Diagram](path/to/architecture-diagram.png)
 
-## Architecture Diagrams
-![Architecture Diagram](link_to_architecture_diagram_image)
+The architecture consists of the following components:
+- **FPGA**: The core hardware platform.
+- **Cryptographic Core**: Implements quantum-resistant algorithms.
+- **Traffic Analyzer**: Monitors and analyzes incoming and outgoing traffic.
 
-## Flowcharts
-![Flowchart](link_to_flowchart_image)
+## Features
+- **Quantum-Resistant Algorithms**: Utilizes encryption methods that are secure against quantum attacks.
+- **Real-Time Traffic Monitoring**: Analyzes network traffic in real-time.
+- **User-Friendly Interface**: Provides an intuitive dashboard for configuration and monitoring.
 
 ## Performance Metrics
-| Metric        | Value      |
-|---------------|------------|
-| Throughput    | XX Gbps    |
-| Latency       | XX ms      |
-| Power Usage   | XX W       |
+| Metric                | Value                |
+|----------------------|----------------------|
+| Throughput           | 1 Gbps               |
+| Latency              | < 2 ms               |
+| Power Consumption     | < 20 W               |
 
-## Feature Comparisons
-| Feature                | Quantum-Resistant Firewall | Traditional Firewalls |
-|------------------------|---------------------------|-----------------------|
-| Quantum Resistance      | Yes                       | No                    |
-| FPGA Implementation     | Yes                       | No                    |
-| Configuration Ease      | High                      | Medium                |
+### Flowcharts
+![Flowchart](path/to/flowchart.png)
 
-## Setup Instructions
-1. Clone the repository: `git clone https://github.com/sankaranarayanan95/-Quantum-Resistant-Hardware-Firewall-on-FPGA.git`
-2. Follow the instructions in the installation guide.
+## ASCII Diagrams
+```
++--------------+
+| Incoming Data |
++--------------+
+        |
+        v
++---------------------+
+| Traffic Analyzer     |
++---------------------+
+        |
+        v
++---------------------+
+| Cryptographic Core   |
++---------------------+
+        |
+        v
++--------------+
+| Outgoing Data      |
++--------------+
+```
 
-## Usage Guide
-Example of how to use the firewall after setup.
+## Performance Visualizations
+![Performance Visualization](path/to/performance-visualization.png)
 
-## Contributors
-- sankaranarayanan95 (Lead Developer)
+## Conclusion
+This project addresses the growing need for security in the era of quantum computing by implementing robust solutions at the hardware level to protect sensitive data and network infrastructure.
 
-## License
-This project is licensed under MIT License - see the [LICENSE](LICENSE) file for details.
+---
 
-## Visualizations
-![Visualization](link_to_visualization_image)
+For further information and updates, please refer to the project repository.
