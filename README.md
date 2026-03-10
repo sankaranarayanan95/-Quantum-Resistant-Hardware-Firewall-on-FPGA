@@ -55,7 +55,7 @@ flowchart TD
     E --> F[Alert LED / GPIO Output]
 ```
 
-![Alt Text](images/flochart.jpg)
+![Alt Text](images/flowchart.jpg)
 
 ---
 
