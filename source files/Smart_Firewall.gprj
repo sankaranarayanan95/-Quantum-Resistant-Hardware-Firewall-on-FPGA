@@ -1,0 +1,15 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9" pn="GW1NR-LV9QN88PC6/I5">gw1nr9-012</Device>
+    <FileList>
+        <File path="src/fsm_controller.v" type="file.verilog" enable="1"/>
+        <File path="src/led_alert.v" type="file.verilog" enable="1"/>
+        <File path="src/pattern_match.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/uart_rx.v" type="file.verilog" enable="1"/>
+        <File path="src/Smart_Firewall.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>
