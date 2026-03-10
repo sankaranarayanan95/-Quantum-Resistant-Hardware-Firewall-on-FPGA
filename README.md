@@ -9,8 +9,7 @@
 ![Latency](https://img.shields.io/badge/Latency-1μs-critical.svg)
 ![Status](https://img.shields.io/badge/Status-Active-success.svg)
 
-
-
+![Alt Text](images/title.jpg)
 
 ---
 
@@ -33,7 +32,9 @@ This project implements a **hardware firewall** on FPGA that filters malicious p
 - **Hardware**: Tang Nano 9K FPGA (Gowin GW1NR-9)  
 - **Crypto**: CRYSTALS-Kyber (Post-Quantum Cryptography)  
 - **Interfaces**: UART / GPIO for embedded deployment  
-- **Language**: Verilog HDL  
+- **Language**: Verilog HDL
+
+![Alt Text](images/fpga.jpg)
 
 ---
 
@@ -54,6 +55,8 @@ flowchart TD
     E --> F[Alert LED / GPIO Output]
 ```
 
+![Alt Text](images/flochart.jpg)
+
 ---
 
 ## ✨ Quantum-Resistant Hardware Firewall – Data Tables
@@ -68,6 +71,9 @@ flowchart TD
 | 🛡 Detection Signatures| `0xDEAD`, `0xBEEF`|
 | 🖥 FPGA Board          | Tang Nano 9K      |
 | 💻 Language            | Verilog HDL       |
+
+
+![Alt Text](images/execution.jpg)
 
 ---
 
